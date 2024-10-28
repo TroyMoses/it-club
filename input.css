@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+    @apply font-medium text-gray-700 hover:text-gray-900 hover:border-black hover:border-b-2 duration-500 transition-all;
+}
